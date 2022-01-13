@@ -75,3 +75,7 @@ h1 {
     text-align: center;
     color: #fff;
 }
+
+.footer-list {
+    list-style: none;
+}
