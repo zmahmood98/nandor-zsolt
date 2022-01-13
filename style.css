@@ -5,13 +5,9 @@
 }
 
 body {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    width: auto;
-    margin: 0;
-    justify-content: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/91/Zsolt_N%C3%A1ndor-001.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
 }
 
 h1 {
@@ -23,23 +19,18 @@ h1 {
     background-size: cover;
 }
 
-.background-image {
-
-}
-
 .mainHeader {
     text-align: center;
     font-family: 'Bungee Shade', cursive;
     font-size: 40px;
 }
 
-
 .topnav {
     cursor: pointer;
     text-align: center;
     justify-content: center;
     padding: 10px;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -51,12 +42,12 @@ h1 {
     padding: 20px ;
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
   }
 
 .topnav a:hover {
-    background-color: rgb(252, 210, 210);
+    background-color: #91B8B1;
     color: black;
   }
 
@@ -66,7 +57,7 @@ h1 {
   }
 
   .footer {
-    position: bottom;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
@@ -76,6 +67,27 @@ h1 {
     color: #fff;
 }
 
-.footer-list {
-    list-style: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5595B0;
 }
+
+li {
+    float: left;
+    padding: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #5595B0;
+  }
